@@ -1,0 +1,203 @@
+{
+    "$schema":"vscode://schemas/color-theme",
+    "name": "White on Black",
+	"semanticHighlighting": true,
+    "colors": {
+		"activityBar.activeBackground": "#0063a5",
+		"activityBar.activeBorder": "#ffffff",
+		"activityBar.activeFocusBorder": "#0043a5",
+        "activityBar.background": "#080808",
+        "activityBar.border": "#000000",
+        "activityBar.dropBorder": "#ffffff",
+		"editor.background": "#000",
+		"editor.foreground": "#ccc",
+		"editor.lineHighlightBackground": "#040404",
+		"editor.selectionBackground": "#282a2e",
+		"editorCursor.foreground": "#fff",
+        "editorIndentGuide.activeBackground": "#0f0f0f",
+        "editorIndentGuide.background": "#060606",
+		"editorGutter.background": "#010202",
+        "editorWhitespace.foreground": "#222",
+		"foreground": "#ccc",
+		"panel.background": "#000000",
+		"panel.border": "#040404",
+        "ports.iconRunningProcessForeground": "#FFFFFF",
+        "selection.background": "#080808",
+        "sideBar.background": "#040404",
+		"sideBar.border": "#000000",
+        "sideBarTitle.foreground": "#FFFFFF",
+		"sideBarSectionHeader.foreground": "#ffffff",
+        "sideBarSectionHeader.background": "#020202",
+		"statusBar.background": "#010101",
+        "statusBarItem.activeBackground": "#0063a5d0",
+		"statusBarItem.hoverBackground": "#00238580",
+        "statusBarItem.prominentBackground": "#000000",
+        "statusBarItem.prominentHoverBackground": "#00238580",
+        "statusBarItem.remoteBackground": "#000000",
+		"tab.border": "#040404",
+		"tab.activeBackground": "#000000",
+		"tab.inactiveBackground": "#161818",
+        "window.activeBorder": "#000000",
+        "window.inactiveBorder": "#101010",
+        "terminal.background": "#000000",
+		"terminal.foreground": "#cccccc",
+        "terminal.ansiBlack": "#00303b",
+        "terminal.ansiRed": "#ff7b7b",
+        "terminal.ansiGreen": "#7bff7b",
+        "terminal.ansiYellow": "#ffff7b",
+        "terminal.ansiBlue": "#7b7bff",
+        "terminal.ansiMagenta": "#ff7bff",
+        "terminal.ansiCyan": "#7bffff",
+        "terminal.ansiWhite": "#a1b1a5",
+        "terminal.ansiBrightBlack": "#517171",
+        "terminal.ansiBrightRed": "#ff9c9c",
+        "terminal.ansiBrightGreen": "#9cff9c",
+        "terminal.ansiBrightYellow": "#ffff9c",
+        "terminal.ansiBrightBlue": "#9c9cff",
+        "terminal.ansiBrightMagenta": "#ff9cff",
+        "terminal.ansiBrightCyan": "#9cffff",
+        "terminal.ansiBrightWhite": "#f6f6de"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#aaa"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"storage.modifier",
+				"entity.name.tag"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator",
+				"meta.parens"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": "entity.name",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#444444"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#a581af"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"constant",
+				"punctuation.definition.constant",
+				"punctuation.definition.numeric",
+				"keyword.other.unit"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#4A6FA5"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": "constant.language",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": [
+				"entity.other",
+				"support.function",
+				"variable.function",
+                "meta.function-call entity.name.function"
+			],
+			"settings": {
+				"foreground": "#73A6D4"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+				"punctuation.definition.string",
+				"punctuation.definition.pragma"
+			],
+			"settings": {
+				"foreground": "#4DA167"
+			}
+		},
+		{
+			"name": "Type",
+			"scope": [
+				"support.type",
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#FFB070"
+			}
+		},
+		{
+			"name": "Type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+        // Syntax exceptions for vs-code
+        {
+			"name": "Dictionary Keys",
+			"scope": [
+				"keyword.key"
+			],
+			"settings": {
+				"foreground": "#ffffff",
+                "fontStyle": "",
+			}
+		},
+        {
+			"name": "Imports",
+			"scope": [
+				"storage.modifier.import"
+			],
+			"settings": {
+				"foreground": "#ffffff",
+                "fontStyle": "",
+			}
+		},
+	]
+}
