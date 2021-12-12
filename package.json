@@ -2,7 +2,7 @@
     "name": "white-on-black",
     "displayName": "White on Black",
     "description": "White text on a black background",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.58.0"
     },
