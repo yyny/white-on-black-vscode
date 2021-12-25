@@ -221,6 +221,7 @@
 				"storage.type"
 			],
 			"settings": {
+                "fontStyle": "",
 				"foreground": "#FFB070"
 			}
 		},
