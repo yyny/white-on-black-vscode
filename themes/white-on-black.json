@@ -194,7 +194,8 @@
 				"entity.other",
 				"support.function",
 				"variable.function",
-                "meta.function-call entity.name.function"
+                "meta.function-call entity.name.function",
+                "entity.name.function.call"
 			],
 			"settings": {
 				"foreground": "#73A6D4"
