@@ -6,6 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.3] - 2023-01-21
+### Added
+ - Add explicit support for Rust and Python
+
+## [0.1.2] - 2022-04-17
+### Changed
+ - Improved brightness of comments
+
 ## [0.1.1] - 2021-12-25
 ### Fixed
  - Fix function calls rendering as definition
