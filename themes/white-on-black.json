@@ -37,7 +37,7 @@
 		"method": { "foreground": "#73A6D4" },
 		"macro": { "foreground": "#ffffff" },
 		"macro.readonly": { "foreground": "#4A6FA5" },
-		"label": { "foreground": "#ffffff" },
+		"label": { "foreground": "#ffaadd" },
 	},
 	"colors": {
 		"activityBar.activeBackground": "#0063a5",
@@ -148,7 +148,7 @@
 			"name": "Function",
 			"scope": "entity.name",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#ffaadd"
 			}
 		},
 		{

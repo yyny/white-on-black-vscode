@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.4] - 2023-11-15
+### Changed
+ - Change label color to match functions
+
 ## [0.1.3] - 2023-01-21
 ### Added
  - Add explicit support for Rust and Python
